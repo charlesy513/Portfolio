@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Charles's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Charles is a sophomore pursuing a major in Mechanical Engineering and an minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Charles' Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
