@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "Charles is a sophomore pursuing a major in Mechanical Engineering and an minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
   resumeLink:
-    "https://drive.google.com/file/d/1jtyo8CPCNUYML5uDfQVcKa55rpRy_IEs/view?usp=sharing",
+    "https://drive.google.com/file/d/1v-Nh2DIDr71U3cCkXi4uRhi588EBH0b1/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
   githubProfile: "https://github.com/charlesy513",
 };
@@ -54,7 +54,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "CAD",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
@@ -99,7 +99,7 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "ANSYS",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -347,30 +347,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Cornell University College of Engineering",
+      subtitle: "B.S. Mechanical Engineering; Minor in Applied Mathematics",
+      logo_path: "Cornell_University_Logo.png",
+      alt_name: "Cornell University",
+      duration: "2022 - 2026",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "● GPA: 3.9/4.0 (Dean’s List)",
+        "● Relevant Coursework Completed: Linear Algebra, Differential Equations, Statics and Mechanics of Solids, Biomedical Transport Phenomena, Physics I: Mechanics and Heat, Physics II: Electromagnetism, Physics III: Oscillations, Waves and Quantum Physics",
+        "● Relevant Coursework In-Progress: Dynamics, Engineering Computation, Mechanical Synthesis",
       ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.engineering.cornell.edu",
     },
   ],
 };
@@ -693,9 +680,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "charles_face.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "You can find my socials below. I am most active on email so feel free to email me about inquiries.",
   },
   blogSection: {
     title: "Blogs",
