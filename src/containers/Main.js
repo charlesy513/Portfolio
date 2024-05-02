@@ -3,6 +3,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
+import Opensource from "../pages/opensource/Opensource";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
@@ -34,6 +35,12 @@ export default class Main extends Component {
             exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
+            )}
+          />
+          <Route
+            path="/landinggear"
+            render={(props) => (
+              <Opensource {...props} theme={this.props.theme} />
             )}
           />
           <Route
