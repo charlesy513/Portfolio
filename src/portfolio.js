@@ -55,11 +55,10 @@ const skills = {
   data: [
     {
       title: "CAD",
-      fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "● Have over 500 hours on SolidWorks, both on personal projects and project team work.",
+        "● Used Fusion360 to fully model F-16 airframe. First CAD software I used and the CAD software where I learned the fundementals.",
+        "● Comfortable with different functionalities of NX. Working to gain exposure through projects",
       ],
       softwareSkills: [
         {
@@ -67,14 +66,6 @@ const skills = {
           fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
           },
         },
         {
@@ -89,22 +80,16 @@ const skills = {
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
           },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
         },
       ],
     },
     {
       title: "ANSYS",
-      fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "● Over 100 hours in ANSYS, both doing static and fluid simulations.",
+        "● Modeled stress and deformation of aircraft push-motor mount and landing gear.",
+        "● Modeled velocity of fluids across different blood vessels.",
       ],
       softwareSkills: [
         {
@@ -112,56 +97,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
           },
         },
         {
@@ -181,13 +116,13 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "3D",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "● Experience working on multiple cloud platforms",
+        "● Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "● Deploying deep learning models on cloud to use on mobile devices",
+        "● Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -640,38 +575,24 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects are where I have gained true experience for the skills I have. Fell free to take a look!",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  //description: "Some of my published Articles, Blogs and Research.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "The Orthovolute",
+      name: "The Orthovolute",
+      createdAt: "2021-01-06T00:00:00Z",
+      description: "First to derive equation for the orthovolute for the cycloid, a discovery of a kind of locus of points situation described by two curves related to a given curve.",
+      url: "https://drive.google.com/file/d/1J3TrZ5Zkjf07w9zJT4iXFs3JnfmYM9Ku/view",
     },
   ],
 };

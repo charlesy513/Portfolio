@@ -25,7 +25,7 @@ class SkillSection extends Component {
       <div>
         {skills.data.map((skill, i) => {
           return (
-            <div key={i} className="skills-main-div">
+            <script><div key={i} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
@@ -43,7 +43,7 @@ class SkillSection extends Component {
                   </h1>
                 </Fade>
                 <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  <script><SoftwareSkill logos={skill.softwareSkills} /></script>
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
@@ -61,7 +61,7 @@ class SkillSection extends Component {
                   </div>
                 </Fade>
               </div>
-            </div>
+            </div></script>
           );
         })}
       </div>
