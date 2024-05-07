@@ -1,39 +1,21 @@
 import React, { Component } from "react";
-import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
-import TopButton from "../../../components/topButton/TopButton";
-import { Fade } from "react-reveal";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
+import Issues from "../../containers/issues/Issues";
 import "./LandingGear.css";
-import { Link } from "react-router-dom";
 
-export default class Error extends Component {
+class LandingGear extends Component {
   render() {
-    const theme = this.props.theme;
     return (
-      <div className="error-main">
+      <div className="landinggear-main">
         <Header theme={this.props.theme} />
-        <div className="error-class">
-          <Fade bottom duration={2000} distance="40px">
-            <h1>Woops</h1>
-            <h1 className="error-404">404</h1>
-            <p>The requested page is totally available at the moment!</p>
-            <Link
-              className="main-button"
-              to="/home"
-              style={{
-                color: theme.body,
-                backgroundColor: theme.text,
-                border: `solid 1px ${theme.text}`,
-                display: "inline-flex",
-              }}
-            >
-              Go Home
-            </Link>
-          </Fade>
-        </div>
-        <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+        <OpensourceCharts theme={this.props.theme} />
+        <Issues theme={this.props.theme} />
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
       </div>
     );
   }
 }
+
+export default LandingGear;
