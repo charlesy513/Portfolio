@@ -47,7 +47,12 @@ class LandingGear extends Component {
           />
         </div>
         <div className="in-the-page">
-        <iframe src="../../assests/pdf/Landing_Gear.pdf" title="pdf of landing gear documentation" type="application/pdf" width="1200" height="1000"></iframe>
+          <h1>
+            <br></br><br></br>Documentation
+          </h1>
+        </div>
+        <div className="in-the-page">
+        <embed src="https://drive.google.com/file/d/1J2uFgaTWGYrbSjj6hZdWX2ad7Rs_222l/preview" width="800" height="1000" allow="autoplay"></embed>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
