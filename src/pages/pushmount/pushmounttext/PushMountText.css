@@ -10,11 +10,6 @@
   margin-top: -80px;
   width: 90%
 }
-.center{
-  display:inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .image_settings{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
