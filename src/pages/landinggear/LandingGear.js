@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import LandingGearText from "./landinggeartext/LandingGearText";
+import LandingGearText from "../../containers/landinggeartext/LandingGearText";
 import Button from "../../components/button/Button";
 import "./LandingGear.css";
 
@@ -47,7 +47,7 @@ class LandingGear extends Component {
           />
         </div>
         <div className="in-the-page">
-        <iframe src="../../assests/pdf/Landing_Gear.pdf" title="pdf of landing gear documentation" type="application/pdf" width="1200" height="1000"></iframe>
+        <embed src="../../assests/pdf/Landing_Gear.pdf" width="1200" height="1000"></embed>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
