@@ -34,7 +34,7 @@ class LandingGear extends Component {
         </div>
         <div className="design-review-btn-div">
           <Button
-            text="Landing Gear CDR 2.0"
+            text="Landing Gear CDR 2"
             newTab={true}
             href={"https://docs.google.com/presentation/d/1NOKRAwD3FdCFpEfDJtf5tSYYxhc98nW3GDt6ZPjPhcU/edit?usp=sharing"}
             theme={this.props.theme}
@@ -43,6 +43,12 @@ class LandingGear extends Component {
             text="Landing Gear FDR"
             newTab={true}
             href={"https://docs.google.com/presentation/d/1H1-3i_NhNjL1-qK-uqpZYWpBUC7i47ErKovXdhlmhVY/edit?usp=sharing"}
+            theme={this.props.theme}
+          />
+          <Button
+            text="End of Semester Project Updates"
+            newTab={true}
+            href={"https://docs.google.com/presentation/d/14h9m5h8jEoRzLz9NAlvC-sSVTNPhJmt1rr4jzm1xW-w/edit?usp=sharing"}
             theme={this.props.theme}
           />
         </div>
