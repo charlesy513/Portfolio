@@ -590,7 +590,7 @@ const publications = {
     {
       id: "The Orthovolute",
       name: "The Orthovolute",
-      createdAt: "2021-01-06T00:00:00Z",
+      createdAt: "2021-01",
       description: "First to derive equation for the orthovolute for the cycloid, a discovery of a kind of locus of points situation described by two curves related to a given curve.",
       url: "https://drive.google.com/file/d/1J3TrZ5Zkjf07w9zJT4iXFs3JnfmYM9Ku/view",
     },

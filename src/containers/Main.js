@@ -9,6 +9,7 @@ import Projects from "../pages/projects/Projects";
 import LandingGear from "../pages/landinggear/LandingGear";
 import PushMount from "../pages/pushmount/PushMount";
 import PhoneCase from "../pages/phonecase/PhoneCase";
+import WEbay from "../pages/webay/WEbay";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -46,6 +47,10 @@ export default class Main extends Component {
           <Route
             path="/pushmount"
             render={(props) => <PushMount {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/webay"
+            render={(props) => <WEbay {...props} theme={this.props.theme} />}
           />
           <Route
             path="/phonecase"

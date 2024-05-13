@@ -10,6 +10,10 @@
   margin-top: -80px;
   width: 90%
 }
+.image_gap{
+    text-align: center;
+    margin-top: 80px;
+}
 .image_settings{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -17,6 +21,7 @@
   column-gap: 5px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 80px;
 }
 .greet-main {
   width: 90%;

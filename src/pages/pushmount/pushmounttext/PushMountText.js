@@ -117,7 +117,7 @@ export default function Greeting(props) {
               >
                 {"Here is the mount on our plane:"}
               </p>
-              <p className="image_center">
+              <p className="image_gap">
                 <img width="800"
                     src={require(`../../../assests/images/pushmountpics/DSC05943.JPG`)}
                     alt="Mount on plane"

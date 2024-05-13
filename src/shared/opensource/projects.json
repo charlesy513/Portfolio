@@ -3,7 +3,7 @@
     {
       "id": "R_kgDOJWL0-g",
       "name": "Atlas Landing Gear",
-      "createdAt": "2024-05-02T04:18:19Z",
+      "createdAt": "2024-05",
       "url": "https://charlesy513.github.io/landinggear",
       "description": "Designed, manufactured and validated integrity of landing gear for a fixed-wing VTOL aircraft, implementing nosewheel steering and coil/leaf spring suspension systems, achieving a 20% (300 grams) reduction in system weight.",
       "isFork": false,
@@ -14,73 +14,56 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Gas Engine",
-      "createdAt": "2021-01-01T08:31:51Z",
+      "createdAt": "2024-03",
       "url": "https://charlesy513.github.io/gasengine",
       "description": "Led the transition of aircraft from an electric motor to a 60cc gas engine, effectively doubling horizontal flight time while maintaining the same system weight. Conducted vibration and drain tests to ensure stability and performance.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "WEbay",
+      "createdAt": "2024-03",
+      "url": "https://charlesy513.github.io/webay",
+      "description": "Developed and produced WEBay, an electrical bay flush to wing holding multiple accessible batteries, reducing manufacturing time by 70% and achieving an expedited two-month deadline from the five-month standard.",
+      "isFork": false,
+      "languages": [
+
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Push Propeller Mount",
-      "createdAt": "2023-09-01T08:31:51Z",
+      "createdAt": "2023-03",
       "url": "https://charlesy513.github.io/pushmount",
       "description": "Designed and performed FEA on horizontal propeller motor mounts that resisted deformation under varying in-flight loading conditions and achieved an 80% weight reduction (200 grams) of the previous design.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Personal Plane",
-      "createdAt": "2021-01-01T08:31:51Z",
+      "createdAt": "2023-10",
       "url": "https://charlesy513.github.io/plane",
       "description": "Complete CAD of my own remote control aircraft.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Personal Car",
-      "createdAt": "2021-01-01T08:31:51Z",
+      "createdAt": "2023-05",
       "url": "https://charlesy513.github.io/gasengine",
       "description": "CAD of geomtry of outter shell of car.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+
       ]
     }
   ]
