@@ -58,7 +58,7 @@ class LandingGear extends Component {
           </h1>
         </div>
         <div className="in-the-page">
-        <embed src="https://drive.google.com/file/d/1J2uFgaTWGYrbSjj6hZdWX2ad7Rs_222l/preview" width="800" height="1000" allow="autoplay"></embed>
+        <embed src="https://drive.google.com/file/d/1W6c8KmMtOHjC6IMWynjKiyNbrfZLqFAp/preview" width="800" height="1000" allow="autoplay"></embed>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
