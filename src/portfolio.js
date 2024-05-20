@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Charles's Portfolio",
+  title: "Charles' Portfolio",
   description:
     "Charles is a sophomore pursuing a major in Mechanical Engineering and an minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
   og: {
