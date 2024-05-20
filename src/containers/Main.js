@@ -10,6 +10,7 @@ import LandingGear from "../pages/landinggear/LandingGear";
 import PushMount from "../pages/pushmount/PushMount";
 import PhoneCase from "../pages/phonecase/PhoneCase";
 import WEbay from "../pages/webay/WEbay";
+import GasEngine from "../pages/gasengine/GasEngine";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -55,6 +56,10 @@ export default class Main extends Component {
           <Route
             path="/phonecase"
             render={(props) => <PhoneCase {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/gasengine"
+            render={(props) => <GasEngine {...props} theme={this.props.theme} />}
           />
           <Route
             path="/education"
