@@ -11,6 +11,7 @@ import PushMount from "../pages/pushmount/PushMount";
 import PhoneCase from "../pages/phonecase/PhoneCase";
 import WEbay from "../pages/webay/WEbay";
 import GasEngine from "../pages/gasengine/GasEngine";
+import Plane from "../pages/plane/Plane";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -60,6 +61,10 @@ export default class Main extends Component {
           <Route
             path="/gasengine"
             render={(props) => <GasEngine {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/plane"
+            render={(props) => <Plane {...props} theme={this.props.theme} />}
           />
           <Route
             path="/education"

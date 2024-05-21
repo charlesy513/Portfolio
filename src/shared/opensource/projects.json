@@ -24,6 +24,17 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "MAE 2250 Phone Case",
+      "createdAt": "2024-02",
+      "url": "https://charlesy513.github.io/phonecase",
+      "description": "Discovered a niche in the market with a multifunctional phone case. It features the ability to stand both horizontally and vertically, includes a card holder, and has a twisting component that can make the case either smooth or grippy.",
+      "isFork": false,
+      "languages": [
+
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "WEbay",
       "createdAt": "2024-03",
       "url": "https://charlesy513.github.io/webay",
@@ -49,7 +60,7 @@
       "name": "Personal Plane",
       "createdAt": "2023-10",
       "url": "https://charlesy513.github.io/plane",
-      "description": "Complete CAD of my own remote control aircraft.",
+      "description": "Designed and 3D printed a personal UAS plane. Currently working on V2, incorporating the knowledge gained from the first version.",
       "isFork": false,
       "languages": [
 
@@ -59,8 +70,8 @@
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Personal Car",
       "createdAt": "2023-05",
-      "url": "https://charlesy513.github.io/gasengine",
-      "description": "CAD of geomtry of outter shell of car.",
+      "url": "https://charlesy513.github.io/car",
+      "description": "Worked on modelling as accurately as possible the body of a Mercedes AMG to learn more about the SOLIDWORKS CAD software. Planning on making car remote control.",
       "isFork": false,
       "languages": [
 

@@ -28,7 +28,7 @@ export default function Greeting(props) {
                     />
               </p>
               <p className="video">
-                <iframe height="500" width="950" src="https://www.youtube.com/embed/oZwHqSrRL-E?si=iJyA1EbDvRPAxS3J?modestbranding=1&amp" title="Gas Engine Test" frameborder="0" allowfullscreen></iframe>
+                <iframe height="495" width="950" src="https://www.youtube.com/embed/oZwHqSrRL-E?si=iJyA1EbDvRPAxS3J?modestbranding=1&amp" title="Gas Engine Test" frameborder="0" allowfullscreen></iframe>
               </p>
               <p
                 className="greeting-text-p subTitle"
