@@ -12,6 +12,7 @@ import PhoneCase from "../pages/phonecase/PhoneCase";
 import WEbay from "../pages/webay/WEbay";
 import GasEngine from "../pages/gasengine/GasEngine";
 import Plane from "../pages/plane/Plane";
+import Car from "../pages/car/Car";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -65,6 +66,10 @@ export default class Main extends Component {
           <Route
             path="/plane"
             render={(props) => <Plane {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/car"
+            render={(props) => <Car {...props} theme={this.props.theme} />}
           />
           <Route
             path="/education"
