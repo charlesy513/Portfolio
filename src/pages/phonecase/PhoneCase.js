@@ -3,12 +3,14 @@ import TopButton from "../../components/topButton/TopButton";
 import PhoneCaseText from "./phonecasetext/PhoneCaseText";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
+import Header from "../../components/header/Header";
 import "./PhoneCase.css";
 
 class PhoneCase extends Component {
   render() {
     return (
       <div className="landinggear-main">
+        <Header theme={this.props.theme} />
         <PhoneCaseText theme={this.props.theme} />
         <div className="design-review-btn-div">
           <Button

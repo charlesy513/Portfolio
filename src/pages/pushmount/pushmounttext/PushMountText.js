@@ -17,7 +17,7 @@ export default function Greeting(props) {
               >
                 {"During the Spring Semester of 2023, I undertook the Push Propeller Mount optimization project aimed at reducing the weight of our entire plane system. The propeller mount emerged as a significant target for weight reduction, initially weighing 250 grams and consisting of a bulky aluminum block located at the rear of our fuselage. This weight imbalance contributed to tail heaviness and posed a risk of stall. I took on the responsibility of reducing the mass of the push propeller mount as much as possible without compromising integrity. Ultimately, I succeeded in reducing the mount's mass to 50 grams, achieving an impressive 80% reduction. To ensure the integrity of the mount, I conducted ANSYS simulations, confirming its structural soundness. Furthermore, I performed rigorous testing on the propeller mount, including subjecting it to 100% thrust for 30 seconds with the motor and propeller installed, validating the accuracy of my simulations."}
               </p>
-              <p className="contact-heading-img-div">
+              <p className="image-side-side">
                 <img
                     src={require(`../../../assests/images/pushmountpics/image (1).png`)}
                     alt="pushmount unbent"

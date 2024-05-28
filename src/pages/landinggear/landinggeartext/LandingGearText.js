@@ -17,7 +17,7 @@ export default function Greeting(props) {
               >
                 {"I designed and constructed the landing gear system entirely from scratch, witnessing its evolution from concept to completion. This system is essential for supporting the weight of a 55lb fixed-wing VTOL aircraft. It boasts features such as nose-wheel steering and suspension systems. These components rely on carefully selected, robust springs, chosen through meticulous calculations tailored to various scenarios. The system's reliability was confirmed through rigorous testing and validation via ANSYS analysis. Despite originally having an allocated weight limit of 1.5kg, I optimized its design to utilize only around 1.25kg, ensuring compliance with FAA regulations for the entire aircraft, which was close to exceeding 55lbs."}
               </p>
-              <p className="contact-heading-img-div">
+              <p className="image-side-side">
                 <img
                     src={require(`../../../assests/images/landinggearpics/front_plane_landing_gear.jpg`)}
                     alt="Landing Gear from front of plane perspective"

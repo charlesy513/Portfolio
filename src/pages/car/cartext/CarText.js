@@ -11,7 +11,7 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {"Mercedes AMG Car CAD"}
               </h1>
-              <p className="contact-heading-img-div">
+              <p className="image-side-side">
                 <img
                     src={require(`../../../assests/images/carpics/carfront.png`)}
                     alt="car from front"

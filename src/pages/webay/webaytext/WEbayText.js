@@ -17,7 +17,7 @@ export default function Greeting(props) {
               >
                 {"The WEbay system was born out of necessity when the team realized that our aircraft's existing ebay couldn't accommodate all the batteries we needed. Ultimately, it was decided to place additional batteries in the WEbay, an alternate ebay in the wing of the plane. Typical projects have a 5-month design cycle, but because the project was introduced later on in the semester, we were on a two-month timeline. Despite the tight deadline, the WEbay proved to be a success, weighing just 138.4 grams—less than half the weight of the original ebay. Moreover, its manufacturing time was dramatically reduced to just two hours per unit, a significant improvement from the 6-7 hours typically required for an ebay."}
               </p>
-              <p className="contact-heading-img-div">
+              <p className="image-side-side">
                 <img height="400"
                     src={require(`../../../assests/images/webaypics/IMG_6334.JPG`)}
                     alt="Webay with batteries out on wing"

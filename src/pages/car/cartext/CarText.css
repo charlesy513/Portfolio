@@ -4,7 +4,17 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
-.contact-heading-img-div {
+.image-side-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-side-side > * {
+  max-width: 50%;
+  height: auto;
+  margin-top: 140px;
+}
+.image-side-side {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: -80px;

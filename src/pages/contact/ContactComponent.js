@@ -20,14 +20,14 @@ class Contact extends Component {
     const theme = this.props.theme;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        <Header theme={this.props.theme} />
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="contact-face"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -68,12 +68,12 @@ class Contact extends Component {
                   {blogSection["subtitle"]}
                 </p>
                 <div className="blogsite-btn-div">
-                  <script><Button
+                  <Button
                     text="Visit My Blogsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
-                  /></script>
+                  />
                 </div>
               </div>
               <div className="blog-heading-img-div">
