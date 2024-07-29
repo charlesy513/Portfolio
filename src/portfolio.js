@@ -289,8 +289,8 @@ const degrees = {
       duration: "2022 - 2026",
       descriptions: [
         "● GPA: 3.9/4.0 (Dean’s List)",
-        "● Relevant Coursework Completed: Linear Algebra, Differential Equations, Statics and Mechanics of Solids, Biomedical Transport Phenomena, Physics I: Mechanics and Heat, Physics II: Electromagnetism, Physics III: Oscillations, Waves and Quantum Physics",
-        "● Relevant Coursework In-Progress: Dynamics, Engineering Computation, Mechanical Synthesis",
+        "● Relevant Coursework Completed: Linear Algebra, Differential Equations, Statics and Mechanics of Solids, Biomedical Transport Phenomena, Physics I: Mechanics and Heat, Physics II: Electromagnetism, Physics III: Oscillations, Waves and Quantum Physics, Dynamics, Engineering Computation, Mechanical Synthesis",
+        "● Relevant Coursework In-Progress: Introduction to Spaceflight Mechanics, Mechanics of Engineering Materials, System Dynamics, Introductory Fluid Dynamics, Engineering Probability and Statistics II ",
       ],
       website_link: "https://www.engineering.cornell.edu",
     },
