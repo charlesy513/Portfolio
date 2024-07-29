@@ -12,7 +12,7 @@ export default function Greeting(props) {
                 {"Push Propeller Mount"}
               </h1>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"During the Spring Semester of 2023, I undertook the Push Propeller Mount optimization project aimed at reducing the weight of our entire plane system. The propeller mount emerged as a significant target for weight reduction, initially weighing 250 grams and consisting of a bulky aluminum block located at the rear of our fuselage. This weight imbalance contributed to tail heaviness and posed a risk of stall. I took on the responsibility of reducing the mass of the push propeller mount as much as possible without compromising integrity. Ultimately, I succeeded in reducing the mount's mass to 50 grams, achieving an impressive 80% reduction. To ensure the integrity of the mount, I conducted ANSYS simulations, confirming its structural soundness. Furthermore, I performed rigorous testing on the propeller mount, including subjecting it to 100% thrust for 30 seconds with the motor and propeller installed, validating the accuracy of my simulations."}
@@ -28,7 +28,7 @@ export default function Greeting(props) {
                 />
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"To conduct the ANSYS analysis accurately, I initially divided the body into three distinct sections: the top mount, bottom mount, and the area where the push motor will be situated. This division allows for targeted application of pressure specifically on the mount section where the propeller is located. After importing the model into ANSYS, I generated varying mesh qualities for each section, ensuring higher fidelity where necessary. Subsequently, I defined contact regions as bonded and applied appropriate boundary conditions. Fixed supports were allocated to the screw holes, while frictionless supports were designated for both the top and bottom surfaces, given their constraint within the fuselage."}
@@ -48,12 +48,12 @@ export default function Greeting(props) {
                 />
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"I added 5052 aluminum to the materials list and applied it to the model. Here are the results after I solved:"}
               </p>
-              <p className="image_center">
+              <p className="image_center image-side-side">
                 <h2>
                     <br></br><br></br><br></br>Deformation
                 </h2>
@@ -62,7 +62,7 @@ export default function Greeting(props) {
                     alt="deformation"
                 />
               </p>
-              <p className="image_center">
+              <p className="image_center image-side-side">
                 <h2>
                     <br></br><br></br><br></br>Equivalent Stress
                 </h2>
@@ -71,7 +71,7 @@ export default function Greeting(props) {
                     alt="Equivalent Stress"
                 />
               </p>
-              <p className="image_center">
+              <p className="image_center  image-side-side">
                 <h2>
                     <br></br><br></br><br></br>Maximum Principal Stress
                 </h2>
@@ -80,7 +80,7 @@ export default function Greeting(props) {
                     alt="Maximum Principal Stress"
                 />
               </p>
-              <p className="image_center">
+              <p className="image_center image-side-side">
                 <h2>
                     <br></br><br></br><br></br>Equivalent Elastic Strain
                 </h2>
@@ -90,18 +90,18 @@ export default function Greeting(props) {
                 />
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"Upon reviewing the results, I gained confidence in my design, noting that the Equivalent Stress remained comfortably below half of the yield stress of 5052 aluminum. Furthermore, the displacement measured only 0.28mm."}
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"Following the simulation, I conducted physical testing on the mount by fixing the motor and propeller and operating at 100% throttle for 30 seconds. The following photos are of the mount after the test, which show the mount sustaining the load without fail."}
               </p>
-              <p className="contact-heading-img-div">
+              <p className="image-side-side">
                 <img height="350"
                     src={require(`../../../assests/images/pushmountpics/DSC03054.JPG`)}
                     alt="pushmount after test 1"
@@ -112,7 +112,7 @@ export default function Greeting(props) {
                 />
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"Here is the mount on our plane:"}

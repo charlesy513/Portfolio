@@ -1,15 +1,55 @@
 .landinggear-main {
   width: 100%;
   margin-top: 0px;
+  padding: 0 20px;
+  box-sizing: border-box !important; /* Ensure padding is included in the element's total width and height */
 }
 
-.design-review-btn-div{
+.design-review-btn-container {
   width: 100%;
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0 !important; /* Add margin to separate the button section from other content */
 }
-.in-the-page{
-  margin-top: 40px;
-  text-align: center;
+
+.design-review-btn-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px !important;
+  width: 100%;
+  margin: 0px 0 !important; /* Add margin to separate the button rows */
+}
+
+.design-review-btn-div.unique-btn-div > * {
+  flex: 0 1 50px !important; /* Ensure the buttons are responsive */
+  max-width: 30% !important; /* Set max width to arrange buttons properly */
+}
+
+.in-the-page {
+  margin-top: 40px !important;
+  text-align: center !important;
+}
+
+@media (max-width: 768px) {
+  .design-review-btn-div {
+    flex-direction: column !important; /* Stack buttons vertically on mobile */
+    align-items: center !important;
+    gap: 0px !important; /* Reduce gap for mobile view */
+  }
+
+  .design-review-btn-div.unique-btn-div > * {
+    max-width: 100% !important; /* Make buttons full width in mobile view */
+    margin: 5px 0 !important; /* Reduce margin for mobile view */
+  }
+
+  .in-the-page h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .in-the-page embed {
+    width: 100% !important;
+    height: auto !important;
+  }
 }

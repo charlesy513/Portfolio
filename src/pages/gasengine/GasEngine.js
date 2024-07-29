@@ -12,13 +12,15 @@ class GasEngine extends Component {
       <div className="landinggear-main">
         <Header theme={this.props.theme} />
         <GasEngineText theme={this.props.theme} />
-        <div className="design-review-btn-div">
-          <Button
-            text="Gas Engine CDR"
-            newTab={true}
-            href={"https://docs.google.com/presentation/d/1V0Q0whgbvaNjV157AfQ4PA5V_5mFnDFVYJ2lKVvJn0U/edit?usp=sharing"}
-            theme={this.props.theme}
-          />
+        <div className="design-review-btn-container">
+          <div className="design-review-btn-div unique-btn-div">
+            <Button
+              text="Gas Engine CDR"
+              newTab={true}
+              href={"https://docs.google.com/presentation/d/1V0Q0whgbvaNjV157AfQ4PA5V_5mFnDFVYJ2lKVvJn0U/edit?usp=sharing"}
+              theme={this.props.theme}
+            />
+          </div>
         </div>
         <div className="in-the-page">
           <h1>
@@ -26,12 +28,11 @@ class GasEngine extends Component {
           </h1>
         </div>
         <div className="in-the-page">
-        <embed src="https://drive.google.com/file/d/1OSj00aY4fTxwkNsSKnEzNVKICDSw-pvS/preview" width="800" height="1000" allow="autoplay"></embed>
+          <embed src="https://drive.google.com/file/d/1OSj00aY4fTxwkNsSKnEzNVKICDSw-pvS/preview" width="800" height="1000" allow="autoplay"></embed>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
-
     );
   }
 }
