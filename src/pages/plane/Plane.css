@@ -1,15 +1,48 @@
 .landinggear-main {
   width: 100%;
-  margin-top: 0px;
+  margin-top: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
-.design-review-btn-div{
+.design-review-btn-container {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.design-review-btn-div {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  width: 100%;
+  margin: 10px 0;
+  max-width: 100%;
 }
-.in-the-page{
-  margin-top: 40px;
+
+@media (max-width: 768px) {
+  .design-review-btn-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .design-review-btn-div > * {
+    max-width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.footer-div {
   text-align: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #888;
 }

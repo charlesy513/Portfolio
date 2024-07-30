@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import TopButton from "../../components/topButton/TopButton";
 import PhoneCaseText from "./phonecasetext/PhoneCaseText";
 import Button from "../../components/button/Button";
-import { Fade } from "react-reveal";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./PhoneCase.css";
