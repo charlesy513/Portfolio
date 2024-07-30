@@ -4,6 +4,7 @@ import PhoneCaseText from "./phonecasetext/PhoneCaseText";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import "./PhoneCase.css";
 
 class PhoneCase extends Component {
@@ -20,15 +21,8 @@ class PhoneCase extends Component {
             theme={this.props.theme}
           />
         </div>
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
-        <div className="footer-div">
-          <Fade>
-            <p className="footer-text">
-              © 2024 The Trojan Case
-            </p>
-            {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
-          </Fade>
-        </div>
       </div>
 
     );

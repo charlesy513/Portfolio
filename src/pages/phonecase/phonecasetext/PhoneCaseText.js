@@ -11,27 +11,24 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {"The Trojan Case"}
               </h1>
-              <p className="image_center">
-                    <video width="600" height="350" controls
+              <p className="image-side-side">
+                    <video controls
                     src={require(`../../../assests/images/phonecasepics/video.mp4`)}
                     title="Video of use of phone case"
                     />
-                    <video width="600" height="350" controls
+                    <video controls
                     src={require(`../../../assests/images/phonecasepics/Full Assembly Phone Case v18.mp4`)}
                     title="Video of use of phone assembly"
                     />
               </p>
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {"Our case boasts state-of-the-art design, offering the versatility to stand both horizontally and vertically. Despite packing numerous functionalities, it maintains a remarkably slim profile of only 0.65 inches when attached to the phone, a rarity in the industry. Say goodbye to propping your phone with a water bottle or struggling with a bulky pocket. The Trojan Case is here, protecting you always."}
               </p>
-              <div class="container">
-                <p
-                  className="phone_text subTitle"
-                  style={{ color: theme.secondaryText }}
-                  >
+              <div class="image-settings greeting-text-p">
+                <p class="text_size"style={{ color: theme.secondaryText }}>
                   Stats for the case:<br></br>-Can prop phone in the horizontal direction.<br></br>-Can prop phone in the vertical direction.<br></br>-Can hold up to three cards.<br></br>-Is 0.65 inches thick.<br></br>-Can easily fit in pocket.<br></br>-Grip level can be changed.
                 </p>
                 <img height="250"
@@ -43,7 +40,7 @@ export default function Greeting(props) {
                 alt="phone in horizontal"
                 />
               </div>
-              <div className="image_center">
+              <div className="image_gap">
                 <img width="1200"
                 src={require(`../../../assests/images/phonecasepics/hands_free.jpg`)}
                 alt="hands free ad"
@@ -52,7 +49,7 @@ export default function Greeting(props) {
               <h1 className="text_center">
               Renderings
               </h1>
-              <p className="image_center">
+              <p className="image-side-side">
                     <img width="600" height="350"
                     src={require(`../../../assests/images/phonecasepics/rendering1.png`)}
                     alt="rending1"
