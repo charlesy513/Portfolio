@@ -86,12 +86,13 @@
     width: 100%;
     max-width: 100%; /* Ensure images take full width in mobile view */
     margin: 0;
+    margin-top: 15px !important;
   }
 
   .image_gap > * {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
+    margin-bottom: 15px !important;
   }
 
   .image_settings {
@@ -125,6 +126,7 @@
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 15px;
   }
 
   .contact-heading-img-div {

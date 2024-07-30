@@ -36,6 +36,11 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+.image_settings img {
+  width: 100%;
+  max-width: 33% !important;
+  height: auto;
+}
 
 .video {
   margin: auto;
@@ -94,7 +99,7 @@
 
   .image_settings img {
     width: 100%;
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto;
   }
 

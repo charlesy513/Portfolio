@@ -27,7 +27,7 @@ export default function Greeting(props) {
               >
                 {"My Mercedes car CAD project was a learning experience to fully utilize the extensive features of SOLIDWORKS. I chose a design with complex geometries to challenge myself and explore the most efficient methods for creating various shapes. It took me about 30-40 hours to complete the shell of the body, and now I plan to use this cover to create a functional RC car."}
               </p>
-              <div className="image-side-side">
+              <div className="image_gap">
                 <figure className="image-side-side">
                   <video controls loop autoplay width="90%" src={require(`../../../assests/images/carpics/topframe.mp4`)} alt="frame of car"/>
                   <figcaption>Top Frame</figcaption>
@@ -37,7 +37,7 @@ export default function Greeting(props) {
                   <figcaption>Tire</figcaption>
                 </figure>
               </div>
-              <div className="image-side-side">
+              <div className="image_gap">
                 <figure className="image-side-side">
                   <img width="90%" src={require(`../../../assests/images/carpics/frontlight.png`)} alt="frontlight of car"/>
                   <figcaption>Front Light</figcaption>
@@ -47,7 +47,7 @@ export default function Greeting(props) {
                   <figcaption>Back Light</figcaption>
                 </figure>
               </div>
-              <div className="image-side-side">
+              <div className="image_gap">
                 <figure className="image-side-side">
                   <img width="90%" src={require(`../../../assests/images/carpics/spoiler.png`)} alt="spoiler of car"/>
                   <figcaption>Spoiler</figcaption>
@@ -57,7 +57,7 @@ export default function Greeting(props) {
                   <figcaption>Door</figcaption>
                 </figure>
               </div>
-              <div className="image-side-side">
+              <div className="image_gap">
                 <figure className="image-side-side">
                   <img width="90%" src={require(`../../../assests/images/carpics/diffuser.png`)} alt="diffuser of car"/>
                   <figcaption>Diffuser</figcaption>
@@ -67,12 +67,12 @@ export default function Greeting(props) {
                   <figcaption>Exhaust</figcaption>
                 </figure>
               </div>
-              <div className="image-side-side">
+              <div className="image_gap">
                 <figure className="image-side-side">
                   <img width="90%" src={require(`../../../assests/images/carpics/rims.png`)} alt="rims of car"/>
                   <figcaption>Rims</figcaption>
                 </figure>
-                <figure className="image_gap">
+                <figure className="image-side-side">
                   <video controls loop autoplay width="90%" src={require(`../../../assests/images/carpics/Frame.mp4`)} alt="frame assembly"/>
                   <figcaption>Frame Assembly</figcaption>
                 </figure>
