@@ -22,7 +22,7 @@ const greeting = {
   title: "Charles Yang",
   logo_name: "Charles' Portfolio",
   subTitle:
-    "Charles is a sophomore pursuing a major in Mechanical Engineering and an minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
+    "Charles is a sophomore pursuing a major in Mechanical Engineering and a minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
   resumeLink:
     "https://drive.google.com/file/d/1v-Nh2DIDr71U3cCkXi4uRhi588EBH0b1/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
@@ -288,7 +288,7 @@ const degrees = {
       alt_name: "Cornell University",
       duration: "2022 - 2026",
       descriptions: [
-        "● GPA: 3.9/4.0 (Dean’s List)",
+        "● GPA: 3.97/4.0 (Dean’s List)",
         "● Relevant Coursework Completed: Linear Algebra, Differential Equations, Statics and Mechanics of Solids, Biomedical Transport Phenomena, Physics I: Mechanics and Heat, Physics II: Electromagnetism, Physics III: Oscillations, Waves and Quantum Physics, Dynamics, Engineering Computation, Mechanical Synthesis",
         "● Relevant Coursework In-Progress: Introduction to Spaceflight Mechanics, Mechanics of Engineering Materials, System Dynamics, Introductory Fluid Dynamics, Engineering Probability and Statistics II ",
       ],
@@ -575,7 +575,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects are where I have gained true experience for the skills I have. Fell free to take a look!",
+    "My projects are where I have gained true experience for the skills I have. Feel free to take a look!",
   avatar_image_path: "projects_image.svg",
 };
 
