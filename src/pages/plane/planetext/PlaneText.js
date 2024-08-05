@@ -25,7 +25,7 @@ export default function Greeting(props) {
                 className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {"I was inspired to begin this project after seeing videos of people online making RC planes out of Lightweight PLA. Since I already have many foam planes, I wanted to try something new. I decided to create a glider-type aircraft for FPV (First-Person View) with a gimbal-mounted camera on the nose for aerial surveillance. I designed the entire plane from scratch using CAD, meticulously planning every detail. However, during testing, the plane failed to fly due to two issues: the motor did not perform at the advertised RPM, and the small wheels kept getting caught on small rocks on the runway, significantly reducing speed. For V2, I plan to increase the wheel size and get a motor that meets the required specifications. After successfully flying, I will then implement the FPV gimbal system."}
+                {"I was inspired to begin this project after seeing videos of people online making RC planes out of Lightweight PLA. Since I already have many foam planes, I wanted to try something new. I decided to create a glider-type aircraft for FPV (First-Person View) with a gimbal-mounted camera on the nose for aerial surveillance. During testing, the plane failed to fly due to two issues: the motor did not perform at the advertised RPM, and the small wheels kept getting caught on small rocks on the runway, significantly reducing speed. For V2, I plan to increase the wheel size and get a motor that meets the required specifications. After successfully flying, I will then implement the FPV gimbal system."}
               </p>
               <p className="image-side-side">
                 <img
@@ -143,7 +143,7 @@ export default function Greeting(props) {
                 className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {"13 N of lift is not bad. Considering if the plane had a 1 to 1 thrust to weight ratio, the angle for the motor to produce enough thrust to lift the plane would be about 20 degrees. This is higher than the normal rotation rate of 10 degrees for a boeing 777. However, it is quite normal for a RC aircraft."}
+                {"13 N of lift is not bad. If the plane had a 1 to 1 thrust to weight ratio, the angle for the motor to produce enough thrust to lift the plane would be about 20 degrees. This is higher than the normal rotation rate of 10 degrees for a boeing 777. However, it is quite normal for a RC aircraft. In addition, with a higher attack angle, the plane might generate more drag and lift."}
               </p>
               <p
                 className="greeting-text-p greeting-text-div subTitle"
