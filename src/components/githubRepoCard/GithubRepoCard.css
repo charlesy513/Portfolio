@@ -3,7 +3,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
-  flex: 1 1 25%;
+  flex: 1 1 100%;
 }
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
@@ -95,7 +95,7 @@
 
 @media (max-width: 1200px) {
   .repo-card-div {
-    flex: 1 1 40%;
+    flex: 1 1 100%;
   }
 }
 
