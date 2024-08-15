@@ -12,6 +12,11 @@
   margin-bottom: 20px !important; /* Add margin to ensure proper spacing from other sections */
 }
 
+.greeting-text-header {
+  font-weight: bold;
+  font-size: 25px !important;
+}
+
 .image-side-side {
   display: flex !important;
   flex-direction: row !important;
@@ -19,6 +24,20 @@
   gap: 20px !important; /* Gap for desktop mode */
   flex-wrap: wrap !important;
   margin-top: -80px !important; /* Reduced margin to decrease gap between images and paragraph */
+}
+
+.text-side-side {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  gap: 20px !important; /* Gap for desktop mode */
+  flex-wrap: wrap !important;
+}
+
+.text-side-side div {
+  flex: 1 !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important; /* Include padding and border in the width/height */
 }
 
 .image-side-side img {
@@ -41,5 +60,9 @@
   .image-side-side img {
     max-width: 100% !important; /* Make images take full width in mobile view */
     margin: 0 !important; /* Remove margins to reduce the gap */
+  }
+  .text-side-side {
+    flex-direction: column !important;
+    gap: 10px !important; /* Adjust gap for mobile mode */
   }
 }
