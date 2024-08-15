@@ -22,7 +22,7 @@ const greeting = {
   title: "Charles Yang",
   logo_name: "Charles' Portfolio",
   subTitle:
-    "Charles is a sophomore pursuing a major in Mechanical Engineering and a minor in Applied Mathematics at Cornell University's College of Engineering. With passions in simulation and design, Charles seeks to apply his knowledge to the real world and make tangible impacts.",
+    "Hi! My name is Charles, and I am a junior pursuing a major in Mechanical Engineering and a minor in Applied Mathematics at Cornell University's College of Engineering. I am deeply passionate about using the skills I have acquired, such as simulation and design, and applying that knowledge to the real world to make tangible impacts. I consider myself results-oriented and take great joy in working on projects that deliver meaningful outcomes.",
   resumeLink:
     "https://drive.google.com/file/d/1v-Nh2DIDr71U3cCkXi4uRhi588EBH0b1/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
