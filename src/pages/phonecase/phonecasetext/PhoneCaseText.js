@@ -28,7 +28,7 @@ export default function Greeting(props) {
                 {"Our case boasts state-of-the-art design, offering the versatility to stand both horizontally and vertically. Despite packing numerous functionalities, it maintains a remarkably slim profile of only 0.65 inches when attached to the phone, a rarity in the industry. Say goodbye to propping your phone with a water bottle or struggling with a bulky pocket. The Trojan Case is here, protecting you always."}
               </p>
               <div class="image-settings greeting-text-p">
-                <p class="text_size"style={{ color: theme.secondaryText }}>
+                <p class="text_size" style={{ color: theme.secondaryText }}>
                   Stats for the case:<br></br>-Can prop phone in the horizontal direction.<br></br>-Can prop phone in the vertical direction.<br></br>-Can hold up to three cards.<br></br>-Is 0.65 inches thick.<br></br>-Can easily fit in pocket.<br></br>-Grip level can be changed.
                 </p>
                 <img height="250"

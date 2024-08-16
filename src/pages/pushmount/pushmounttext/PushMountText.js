@@ -11,12 +11,6 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {"Push Propeller Mount"}
               </h1>
-              <p
-                className="greeting-text-p greeting-text-div subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {"During the Spring Semester of 2023, I undertook the Push Propeller Mount optimization project aimed at reducing the weight of our entire plane system. The propeller mount emerged as a significant target for weight reduction, initially weighing 250 grams and consisting of a bulky aluminum block located at the rear of our fuselage. This weight imbalance contributed to tail heaviness and posed a risk of stall. I took on the responsibility of reducing the mass of the push propeller mount as much as possible without compromising integrity. Ultimately, I succeeded in reducing the mount's mass to 50 grams, achieving an impressive 80% reduction. To ensure the integrity of the mount, I conducted ANSYS simulations, confirming its structural soundness. Furthermore, I performed rigorous testing on the propeller mount, including subjecting it to 100% thrust for 30 seconds with the motor and propeller installed, validating the accuracy of my simulations."}
-              </p>
               <p className="image-side-side">
                 <img
                     src={require(`../../../assests/images/pushmountpics/image (1).png`)}
@@ -27,6 +21,50 @@ export default function Greeting(props) {
                     alt="pushmount bent"
                 />
               </p>
+              <div className="text-side-side">
+                <div>
+                  <p className="greeting-text-p greeting-text-header" style={{ color: theme.text }}>
+                    {"Overview"}
+                  </p>
+                  <p
+                    className="greeting-text-p greeting-text-div subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {"The Push Propeller Mount optimization project was an initiative within CUAir aimed at reducing the weight of the push propeller mount on the old Artemis airframe. The team was evaluating various systems for mass reduction, and the propeller mount emerged as a significant target, initially weighing 250 grams and consisting of a bulky aluminum block located at the rear of the fuselage. This weight imbalance contributed to tail heaviness and increased the risk of stall. I took on the responsibility of optimizing the system."}
+                  </p>
+                </div>
+                <div>
+                  <p className="greeting-text-p greeting-text-header" style={{ color: theme.text }}>
+                    {"Objective"}
+                  </p>
+                  <p
+                    className="greeting-text-p greeting-text-div subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {"The objective of this project was to reduce the mass of the push propeller mount as much as possible without compromising its structural integrity."}
+                  </p>
+                  <p className="image_gap">
+                    <figure>
+                        <img width="300"
+                            src={require(`../../../assests/images/pushmountpics/oldpush.png`)}
+                            alt="push old"
+                        />
+                        <figcaption class="text_size" style={{ color: theme.secondaryText }}>Old Push Propeller Mount</figcaption>
+                    </figure>
+                  </p>
+                </div>
+                <div>
+                  <p className="greeting-text-p greeting-text-header" style={{ color: theme.text }}>
+                    {"Results"}
+                  </p>
+                  <p
+                    className="greeting-text-p greeting-text-div subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {"I succeeded in reducing the mount's mass to 50 grams, achieving an impressive 80% reduction. To ensure the integrity of the mount, I conducted ANSYS simulations, confirming its structural soundness. Furthermore, I performed rigorous testing on the propeller mount, including subjecting it to 100% thrust for 30 seconds with the motor and propeller installed, validating the accuracy of my simulations."}
+                  </p>
+                </div>
+              </div>
               <p
                 className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
