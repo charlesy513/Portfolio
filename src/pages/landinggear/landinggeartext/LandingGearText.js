@@ -41,7 +41,7 @@ export default function Greeting(props) {
                     className="greeting-text-p greeting-text-div subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {"My goal was to design a landing gear system capable of supporting the aircraft's weight, approximately 55 lbs, while enabling both horizontal and vertical takeoffs and landings. Additionally, the system ideally should weigh no more than 1.5 kg."}
+                    {"In this project, I was responsible for the design and manufacturing of the landing gear system on the Atlas airframe. My goal was to design a landing gear system capable of supporting the aircraft's weight, approximately 55 lbs, while enabling both horizontal and vertical takeoffs and landings. Additionally, the system ideally should weigh no more than 1.5 kg."}
                   </p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export default function Greeting(props) {
                 className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {"I designed and constructed the landing gear system entirely from scratch, witnessing its evolution from concept to completion. This system was able to support the weight of a 55 lb fixed-wing VTOL aircraft. It boasts features such as nose-wheel steering and suspension systems. These components rely on carefully selected, robust springs, chosen through meticulous calculations tailored to various scenarios. The system's reliability was confirmed through rigorous testing and validation via ANSYS analysis. Despite originally having an allocated weight limit of 1.5 kg, I optimized its design to utilize only around 1.25 kg, ensuring compliance with FAA regulations for the entire aircraft, which was close to exceeding 55 lbs."}
+                {"I designed and constructed the landing gear system entirely from scratch, witnessing its evolution from concept to completion. This system was able to support the weight of a 55 lb fixed-wing VTOL aircraft. It boasts features such as nose-wheel steering and suspension systems. These components rely on carefully selected, robust springs, chosen through meticulous calculations tailored to various scenarios. The system's reliability was confirmed through rigorous testing and validation via ANSYS analysis. Further, despite the originally allocated weight limit of 1.5 kg, I optimized its design to utilize only 1.25 kg, ensuring compliance with FAA regulations for the entire aircraft."}
               </p>
           </div>
       </div>

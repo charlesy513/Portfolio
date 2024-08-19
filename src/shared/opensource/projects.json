@@ -17,6 +17,21 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Push Propeller Mount",
+      "createdAt": "2023-03",
+      "url": "https://charlesy513.github.io/pushmount",
+      "image1": "/assets/images/pushmountpics/DSC03054.JPG",
+      "image2": "/assets/images/pushmountpics/DSC03057.JPG",
+      "alt1": "side pushmount",
+      "alt2": "angle pushmount",
+      "description": "Designed and performed FEA on horizontal propeller motor mounts that resisted deformation under varying loading conditions and achieved an 80% weight reduction (200 grams) of the previous design.",
+      "isFork": false,
+      "languages": [
+
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Gas Engine",
       "createdAt": "2024-03",
       "url": "https://charlesy513.github.io/gasengine",
@@ -25,21 +40,6 @@
       "alt1": "gas engine",
       "alt2": "glow engine",
       "description": "Led the transition of aircraft from an electric motor to a 60cc gas engine, effectively doubling horizontal flight time while maintaining the same system weight. Conducted vibration and drain tests to ensure stability and performance.",
-      "isFork": false,
-      "languages": [
-
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "MAE 2250 Phone Case",
-      "createdAt": "2024-02",
-      "url": "https://charlesy513.github.io/phonecase",
-      "image1": "/assets/images/phonecasepics/IMG_2119.jpg",
-      "image2": "/assets/images/phonecasepics/IMG_2113.jpg",
-      "alt1": "phone case vertical",
-      "alt2": "phone case horizontal",
-      "description": "Discovered a niche in the market with a multifunctional phone case. It features the ability to stand both horizontally and vertically, includes a card holder, and has a twisting component that can make the case either smooth or grippy.",
       "isFork": false,
       "languages": [
 
@@ -62,14 +62,29 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "Push Propeller Mount",
-      "createdAt": "2023-03",
-      "url": "https://charlesy513.github.io/pushmount",
-      "image1": "/assets/images/pushmountpics/DSC03054.JPG",
-      "image2": "/assets/images/pushmountpics/DSC03057.JPG",
-      "alt1": "side pushmount",
-      "alt2": "angle pushmount",
-      "description": "Designed and performed FEA on horizontal propeller motor mounts that resisted deformation under varying in-flight loading conditions and achieved an 80% weight reduction (200 grams) of the previous design.",
+      "name": "MAE 2250 Phone Case",
+      "createdAt": "2024-02",
+      "url": "https://charlesy513.github.io/phonecase",
+      "image1": "/assets/images/phonecasepics/IMG_2119.jpg",
+      "image2": "/assets/images/phonecasepics/IMG_2113.jpg",
+      "alt1": "phone case vertical",
+      "alt2": "phone case horizontal",
+      "description": "Discovered a niche in the market with a multifunctional phone case. It features the ability to stand both horizontally and vertically, includes a card holder, and has a twisting component that can make the case either smooth or grippy.",
+      "isFork": false,
+      "languages": [
+
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Personal Car",
+      "createdAt": "2023-05",
+      "url": "https://charlesy513.github.io/car",
+      "image1": "/assets/images/carpics/carback.png",
+      "image2": "/assets/images/carpics/carfront.png",
+      "alt1": "car back",
+      "alt2": "car front",
+      "description": "Worked on modelling the body of a Mercedes AMG as accurately as possible to learn more about different features in the SOLIDWORKS CAD software. Planning on making car remote control.",
       "isFork": false,
       "languages": [
 
@@ -92,21 +107,6 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "Personal Car",
-      "createdAt": "2023-05",
-      "url": "https://charlesy513.github.io/car",
-      "image1": "/assets/images/carpics/carback.png",
-      "image2": "/assets/images/carpics/carfront.png",
-      "alt1": "car back",
-      "alt2": "car front",
-      "description": "Worked on modelling as accurately as possible the body of a Mercedes AMG to learn more about the SOLIDWORKS CAD software. Planning on making car remote control.",
-      "isFork": false,
-      "languages": [
-
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Introduction to Digital Fabrication Documentation ",
       "createdAt": "2021-08",
       "url": "https://charlesy513.github.io/phys_s-12/index.html",
@@ -114,7 +114,7 @@
       "image2": "/assets/images/digitalfab/plane.png",
       "alt1": "f16 engine",
       "alt2": "f16",
-      "description": "A four-credit course integrating computer science, art and design",
+      "description": "A four-credit course integrating computer science, art and design. Learned skills from 3D printing to programming electronics.",
       "isFork": false,
       "languages": [
 

@@ -69,6 +69,12 @@ export default function Greeting(props) {
                 className="greeting-text-p greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
+                {"The team brought Artemis to the 2023 SUAS competition where we were awarded the Most Innovative Award for the most creative airframe and placed 4th place internationally among thirty other teams."}
+              </p>
+              <p
+                className="greeting-text-p greeting-text-div subTitle"
+                style={{ color: theme.secondaryText }}
+              >
                 {"To conduct the ANSYS analysis accurately, I initially divided the body into three distinct sections: the top mount, bottom mount, and the area where the push motor will be situated. This division allows for targeted application of pressure specifically on the mount section where the propeller is located. After importing the model into ANSYS, I generated varying mesh qualities for each section, ensuring higher fidelity where necessary. Subsequently, I defined contact regions as bonded and applied appropriate boundary conditions. Fixed supports were allocated to the screw holes, while frictionless supports were designated for both the top and bottom surfaces, given their constraint within the fuselage."}
               </p>
               <p className="image_settings">

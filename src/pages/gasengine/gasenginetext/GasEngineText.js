@@ -39,7 +39,7 @@ export default function Greeting(props) {
                     className="greeting-text-p greeting-text-div subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {"The gas engine project was a collaborative effort involving over five members of CUAir to replace the plane's current electric engine with a gas engine. The reason for this change was the competition's requirement to fly the plane for approximately 10 miles. The electric engine, limited by the weight and energy density of the batteries, couldn't cover the entire distance. Adding more batteries proved ineffective, as their weight further reduced flight time. Consequently, we needed to find an alternative solution, leading us to explore the gas engine option."}
+                    {"The gas engine project was a collaborative initiative taken by five members of CUAir to replace the plane's current electric engine with a gas engine. The reason for this change was the competition's requirement to fly the plane for approximately 10 miles. The electric engine, limited by the weight and energy density of the batteries, couldn't cover the entire distance. Adding more batteries proved ineffective, as their weight further reduced flight time. Consequently, we needed to find an alternative solution, leading us to explore the gas engine option."}
                   </p>
                 </div>
                 <div>
@@ -50,7 +50,7 @@ export default function Greeting(props) {
                     className="greeting-text-p greeting-text-div subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {"The primary objective of the gas engine project was to assess the feasibility of integrating a gas engine into our aircraft. We established three key criteria to determine if the gas engine was a viable solution. First, we needed to ensure the gas engine could operate over the 10-mile distance required for the competition. Second, we aimed to determine whether the vibrations from the gas engine could be dampened. Lastly, we sought to evaluate the feasibility of mounting the gas engine on the plane."}
+                    {"The primary objective of the gas engine project was to assess the feasibility of integrating a gas engine into our aircraft. We established three key criteria to determine if the gas engine was a viable solution. First, we needed to ensure that the gas engine could operate over the 10-mile distance required for the competition. Second, we aimed to determine whether the vibrations from the gas engine could be dampened. Lastly, we sought to evaluate the feasibility of mounting the gas engine on the plane."}
                   </p>
                 </div>
               </div>
