@@ -50,7 +50,7 @@ export default function Greeting(props) {
                     className="greeting-text-p greeting-text-div subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {"The primary objective of the gas engine project was to assess the feasibility of integrating a gas engine into our aircraft. We established three key criteria to determine if the gas engine was a viable solution. First, we needed to ensure the gas engine could operate over the 10-mile distance required for the competition. Second, we aimed to determine whether the vibrations from the gas engine could be dampened. Lastly, we evaluated the feasibility of mounting the gas engine on the plane."}
+                    {"The primary objective of the gas engine project was to assess the feasibility of integrating a gas engine into our aircraft. We established three key criteria to determine if the gas engine was a viable solution. First, we needed to ensure the gas engine could operate over the 10-mile distance required for the competition. Second, we aimed to determine whether the vibrations from the gas engine could be dampened. Lastly, we sought to evaluate the feasibility of mounting the gas engine on the plane."}
                   </p>
                 </div>
               </div>

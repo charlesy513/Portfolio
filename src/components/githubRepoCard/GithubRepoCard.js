@@ -44,7 +44,7 @@ export default function GithubRepoCard({ repo, theme }) {
                 alt={repo.alt2}
             />
           </p>
-          <div className="repo-details">
+          <script><div className="repo-details">
             <p
               className="repo-creation-date subTitle"
               style={{ color: theme.secondaryText }}
@@ -55,7 +55,7 @@ export default function GithubRepoCard({ repo, theme }) {
               className="repo-languages"
               logos={repo.languages}
             />
-          </div>
+          </div></script>
         </div>
       </Fade>
     </div>

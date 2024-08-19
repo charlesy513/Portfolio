@@ -9,7 +9,7 @@ export default function Greeting(props) {
       <div className="greet-main" id="greeting">
           <div className="greeting-text-div">
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {"Landing Gear"}
+                {"Atlas Landing Gear"}
               </h1>
               <div className="image-side-side">
                 <img
