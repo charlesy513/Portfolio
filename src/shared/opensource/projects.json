@@ -110,6 +110,10 @@
       "name": "Introduction to Digital Fabrication Documentation ",
       "createdAt": "2021-08",
       "url": "https://charlesy513.github.io/phys_s-12/index.html",
+      "image1": "/assets/images/digitalfab/engine.png",
+      "image2": "/assets/images/digitalfab/plane.png",
+      "alt1": "f16 engine",
+      "alt2": "f16",
       "description": "A four-credit course integrating computer science, art and design",
       "isFork": false,
       "languages": [
