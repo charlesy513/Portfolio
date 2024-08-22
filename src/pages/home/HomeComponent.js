@@ -37,12 +37,12 @@ class Home extends Component {
                   >
                     {projectsHeader.title}
                   </h1>
-                  <p
+                  <script><p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
                     {projectsHeader["description"]}
-                  </p>
+                  </p></script>
                 </div>
               </div>
             </Fade>

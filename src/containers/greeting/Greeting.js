@@ -44,7 +44,7 @@ export default function Greeting(props) {
                 className="greeting-text-h subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {"Having grown up in an urban area, I have a strong passion for teaching and mentoring. In high school, I was a tutor at "} <a href="https://www.sjp2ca.org/lower-mills-campus/" style={{ color: theme.secondaryText}}> St. John Paul II Catholic Academy in Dorchester, Massachusetts </a> {", where I taught math, physics and poetry . Additionally, I’ve been a hockey and skating coach with "} <a href="https://fmcicesports.com" style={{ color: theme.secondaryText}}> FMC Ice Sports </a> {". Seeing kids able to skate freely on the ice brings me immense joy."}
+                {"Having grown up in an urban area, I have a strong passion for teaching and mentoring. In high school, I was a tutor at "} <a href="https://www.sjp2ca.org/lower-mills-campus/" style={{ color: theme.secondaryText}}> St. John Paul II Catholic Academy in Dorchester, Massachusetts </a> {", where I taught math, physics and poetry. Additionally, I’ve been a hockey and skating coach with "} <a href="https://fmcicesports.com" style={{ color: theme.secondaryText}}> FMC Ice Sports </a> {". Seeing kids able to skate freely on the ice brings me immense joy."}
               </p>
               <SocialMedia theme={theme} />
               {/* <div className="button-greeting-div">

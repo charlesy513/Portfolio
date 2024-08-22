@@ -8,7 +8,16 @@
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
-
+.repo-image {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+.repo-image img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
 .repo-stats {
   display: flex;
   -webkit-box-pack: justify;

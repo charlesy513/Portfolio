@@ -34,14 +34,10 @@ export default function GithubRepoCard({ repo, theme }) {
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>
-          <p className="image-side-side">
+          <p className="repo-image">
             <img
                 src={repo.image1}
                 alt={repo.alt1}
-            />
-            <img
-                src={repo.image2}
-                alt={repo.alt2}
             />
           </p>
           <div className="repo-details">
