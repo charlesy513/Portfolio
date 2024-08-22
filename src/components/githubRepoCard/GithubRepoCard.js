@@ -44,18 +44,19 @@ export default function GithubRepoCard({ repo, theme }) {
                 alt={repo.alt2}
             />
           </p>
-          <script><div className="repo-details">
+          <div className="repo-details">
             <p
               className="repo-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Created on {repo.createdAt.split("T")[0]}
+              {repo.click}
+             <script> Created on {repo.createdAt.split("T")[0]} </script>
             </p>
             <ProjectLanguages
               className="repo-languages"
               logos={repo.languages}
             />
-          </div></script>
+          </div>
         </div>
       </Fade>
     </div>
