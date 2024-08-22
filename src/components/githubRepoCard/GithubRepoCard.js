@@ -31,9 +31,9 @@ export default function GithubRepoCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text }}>
+          <script><p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
-          </p>
+          </p></script>
           <p className="repo-image">
             <img
                 src={repo.image1}
