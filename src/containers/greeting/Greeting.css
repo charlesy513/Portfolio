@@ -50,6 +50,14 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-text-h {
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 0px;
+  text-align: left;
+  font-family: "Google Sans Regular";
+}
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;

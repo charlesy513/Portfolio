@@ -21,8 +21,14 @@ const seo = {
 const greeting = {
   title: "Charles Yang",
   logo_name: "Charles' Portfolio",
-  subTitle:
-    "Hi! My name is Charles, and I am a junior pursuing a major in Mechanical Engineering and a minor in Applied Mathematics at Cornell University's College of Engineering. I am deeply passionate about using the skills I have acquired, such as simulation and design, and applying that knowledge to the real world to make tangible impacts. I consider myself results-oriented and take great joy in working on projects that deliver meaningful outcomes.",
+  paragraph1:
+    "Hi! I'm Charles, a junior at Cornell University studying Mechanical Engineering and Applied Mathematics.",
+  paragraph2:
+    "I'm passionate about simulations and design in both aircraft and spaceflight. Throughout my time at Cornell, I've actively explored the aerospace field. Since my freshman year, I've been a member of the Cornell University Unmanned Air Systems (CUAir), where we design and build custom UAVs for search and rescue missions. This upcoming semester, I'm excited to take on the role of Structures and Payloads Subteam Lead for CUAir. In addition to my work with CUAir, I’m involved with the ASTRA (Advanced Space Technology Research and Architectures) Lab at Cornell, where I’ve been researching various propulsion systems and evaluating their feasibility for long-term space missions. I've also been conducting thermal analysis on Hall thrusters to develop innovative thermal management solutions. My coursework spans a range of subjects, including Dynamics, Waves, and Quantum Physics.",
+  paragraph3:
+    "Outside of school, I've been involved in a variety of activities that bring me a lot of joy. I've been playing hockey since I was five years old, and it remains a huge part of my life. Even now, in college, I'm a member of the club hockey team. Another passion of mine is hiking, and one of my personal goals is to hike a trail in every national park—so far, I’ve covered eight out of sixty-three. My love for the outdoors also sparked an interest in photography, especially aerial photography. I enjoy exploring the world from unique perspectives with my drones, capturing breathtaking environments from angles that would otherwise be unreachable.",
+  paragraph4:
+    "I also have a strong passion for teaching and sharing knowledge. In high school, I was a tutor at St. John Paul II Catholic Academy in Dorchester, Massachusetts, where I loved interacting with the students and found great fulfillment in helping them learn. Additionally, I’ve been a hockey and skating coach, where I help kids develop their skills on the ice. Seeing their rapid improvement brings me immense joy.",
   resumeLink:
     "https://drive.google.com/file/d/1v-Nh2DIDr71U3cCkXi4uRhi588EBH0b1/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
