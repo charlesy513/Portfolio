@@ -22,7 +22,7 @@ const greeting = {
   title: "Charles Yang",
   logo_name: "Charles' Portfolio",
   resumeLink:
-    "https://drive.google.com/file/d/1u_aeEuMUNI5TD6vUcsVZKXJ6MBvieOAQ/view?usp=sharing",
+    "https://drive.google.com/file/d/1UcDDzTnA7mBLOm_FZCffVzFEw8XFWath/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
   githubProfile: "https://github.com/charlesy513",
 };
