@@ -601,7 +601,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "charles_face3.png",
     description:
-      "You can find my socials below. I am most active on email so feel free to email me about inquiries.",
+      "You can find my socials below. I am most active on email so feel free to email me with inquiries.",
   },
   blogSection: {
     title: "Blogs",
