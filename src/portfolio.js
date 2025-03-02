@@ -22,7 +22,7 @@ const greeting = {
   title: "Charles Yang",
   logo_name: "Charles' Portfolio",
   resumeLink:
-    "https://drive.google.com/file/d/1UcDDzTnA7mBLOm_FZCffVzFEw8XFWath/view?usp=sharing",
+    "https://drive.google.com/file/d/1OGDPpNYVoBHCPxAYDqmKG-v-1BRysae-/view?usp=sharing",
   portfolio_repository: "https://github.com/charlesy513/portfolio.github.io",
   githubProfile: "https://github.com/charlesy513",
 };
@@ -287,8 +287,8 @@ const degrees = {
       duration: "2022 - 2026",
       descriptions: [
         "● GPA: 3.97/4.0 (Dean’s List)",
-        "● Relevant Coursework Completed: Linear Algebra, Differential Equations, Statics and Mechanics of Solids, Biomedical Transport Phenomena, Physics I: Mechanics and Heat, Physics II: Electromagnetism, Physics III: Oscillations, Waves and Quantum Physics, Dynamics, Engineering Computation, Mechanical Synthesis",
-        "● Relevant Coursework In-Progress: Introduction to Spaceflight Mechanics, Mechanics of Engineering Materials, System Dynamics, Introductory Fluid Dynamics, Engineering Probability and Statistics II ",
+        "● Relevant Coursework Completed: Spaceflight Mechanics, Mechanics of Materials, System Dynamics, Fluid Dynamics, Engineering Probability, Dynamics, Statics and Mechanics of Solids, Engineering Computation, Mechanical Synthesis, Linear Algebra, Differential Equations, Physics Mechanics, Physics Electromagnetism, Physics Waves",
+        "● Relevant Coursework In-Progress: Mechatronics, Heat Transfer, Flight Dynamics, Stochastic Processes ",
       ],
       website_link: "https://charlesy513.github.io/projects",
     },
